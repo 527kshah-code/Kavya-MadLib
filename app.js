@@ -13,16 +13,15 @@
   - Write your own prompts and story!
 */
 
-/* 1) CREATE VARIABLES 
-   - Make one variable per word you need (e.g., a noun, a verb, an adjective, a place, a number, etc.)
-   - Use prompt() to ask the user for each word.
-   - EXAMPLE CATEGORIES (choose your own): noun1, adjective1, verbPast, place, animal, food
-   - Name variables clearly so you remember what each one is for.
-*/
 
-// let ________ = prompt("Ask the user for ________");
-// let ________ = prompt("Ask the user for ________");
-// (Add as many as your story needs)
+
+ let yourName = prompt("What is your name?");
+ let weapon = prompt("What is your weapon of choice?");
+ let villain = prompt("What is the name of your villain?");
+ let animal = prompt("Choose an animal?");
+ let setting = prompt("Where do you want the story to take place?");
+ let adjective = prompt("Choose a adjective?"); 
+ let superpower = prompt("Pick a superpower")
 
 /* 2) BUILD YOUR STORY STRING
    - Use a template literal: it starts and ends with backticks (the ` key).
@@ -30,7 +29,7 @@
    - Keep it fun! Make sure your story uses ALL the variables you collected.
 */
 
-// let story = `Write your story here using ${_____} and ${_____} etc.`;
+let story = `${yourName} was ${adjective} in the ${setting}. Suddenly ${}`;
 
 /* 3) DISPLAY THE STORY ON THE PAGE
    - Select the element with id "madlib-output" using document.getElementById(...)
