@@ -29,7 +29,7 @@
    - Keep it fun! Make sure your story uses ALL the variables you collected.
 */
 
-let story = `${yourName} was ${adjective} in the ${setting}. Suddenly ${}`;
+let story = `${yourName} was ${adjective} in the ${setting}. Suddenly ${villain} came out of `;
 
 /* 3) DISPLAY THE STORY ON THE PAGE
    - Select the element with id "madlib-output" using document.getElementById(...)
