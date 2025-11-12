@@ -18,11 +18,15 @@ body {
 }
 .card-body:hover {
   background-color:#96BFEE;
-  filter: drop-shadow(8px 8px 10px #CE8DA0)
+  filter: drop-shadow(8px 8px 10px #CE8DA0);
 }
 .border-bottom {
   background-color:#A7B394;
 }
 .small {
-  background-color:#9DB5B2;
+  background-color:#A7B394;
+}
+.small:hover {
+  background-color:#A7B394;
+  filter: drop-shadow(4px 4px 5px #CE8DA0);
 }
