@@ -6,24 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Mad Lib Story</title>
 
-    <!-- Bootstrap 5 CSS (CDN) -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
 
-    <!-- Your custom styles -->
     <link rel="stylesheet" href="style.css" />
 
-    <!-- Your JS (loads after HTML so students can target elements by id) -->
     <script src="app.js" defer></script>
 </head>
 
-<body class="bg-light">
+<body>
     <header class="py-4 border-bottom bg-white">
         <div class="container">
             <h1 class="h3 mb-1">Mad Lib Story</h1>
             <p class="text-muted mb-0">
-                Build a story using <code>prompt()</code>, variables, template literals, and
-                <code>innerHTML</code>. (No conditionals yet!)
+                Your story will generate bellow.
             </p>
         </div>
     </header>
@@ -36,58 +32,29 @@
                     <div class="card-body">
                         <h2 class="h5">Your Story</h2>
 
-                        <!-- STUDENTS: This is the element you will target with getElementById(...) -->
                         <div id="madlib-output" class="mt-3">
-                            <!-- Replace this content with your generated story using .innerHTML -->
+                            
                             <p class="text-muted mb-0">
-                                <b>${yourName}</b> was <b>${adjective}</b> in the <b>${setting}</b>. Suddenly, <b>${villain}</b> came out of a(n) <b>${object}</b> holding a <b>${weapon}</b>.
-                                <b>${yourName}</b> soon realized that the person in front of <b>${pronoun}</b> was a part of the mafia gang that had killed <b>${person}</b>. Just as 
-                                <b>${pronoun}</b> tried to back away, lightning struck <b>${yourName}</b>. As <b>${pronoun}</b> tried sprinting away, <b>${superpower}</b> was released from 
-                                <b>${pronoun}</b> hand and struck down <b>${villain}</b>. Just as <b>${pronoun}</b> thought <b>${pronoun}</b> had won, <b>${villain}</b> stood up again and 
-                                <b>${verb}</b> over, causing a(n) <b>${animal}</b> to come out from behind a(n) <b>${object}</b>. The ferocious <b>${animal}</b> smelled <b>${object}</b> dust 
-                                on <b>${yourName}</b> and <b>${villain}</b>, causing the <b>${animal}</b> to go berserk and <b>${verb}</b> around the two of them. As <b>${villain}</b> was distracted, 
-                                the clouds suddenly darkened and a great wave of <b>${superpower}</b> was unleashed from <b>${yourName}</b>'s soul. This sent shock waves <b>${verb}</b> through the 
-                                <b>${setting}</b>. As a bystander was witnessing this, he started to record the events unfolding in front of him and also called the police to help arrest <b>${villain}</b>. 
-                                While the police were being dispatched, <b>${yourName}</b> and <b>${villain}</b> were battling in the distance. <b>${yourName}</b> thought that this was the greatest battle 
-                                of the century, as <b>${pronoun}</b> started to wield the power of <b>${superpower}</b> and went head-to-head against <b>${villain}</b>, who also raised his <b>${weapon}</b>.
-                                However, little did <b>${yourName}</b> know the <b>${weapon}</b> was magical and could inflict <b>${number}</b>% more damage than an original <b>${weapon}</b>. <b>${yourName}</b> 
-                                was severely wounded by the <b>${adjective}</b> <b>${weapon}</b>. Watching this, the bystander channeled all his energy into becoming an alpha sigma male. Using this gusto,
-                                <b>${adverb}</b> attacked the <b>${villain}</b>, even though <b>${villain}</b> lay helplessly on the ground. The bystander decided to show some mercy and save <b>${yourName}</b>.
-                                By the time the cops arrived at the scene, <b>${villain}</b> had fled to another <b>${setting}</b>.
+                            When your page loads and your JavaScript runs, your completed Mad Lib
+                                will appear here.
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <!-- Simple “About / Instructions” column -->
             <div class="col-12 col-md-5">
                 <div class="card shadow-sm">
                     <div class="card-body">
-                        <h2 class="h6">What to Do</h2>
-                        <ol class="mb-3">
-                            <li>Use <code>prompt()</code> to ask the user for words (noun, verb, adjective, place,
-                                etc.).</li>
-                            <li>Store each answer in a clearly named variable using <code>let</code> or
-                                <code>const</code>.</li>
-                            <li>Create a story string using template literals (backticks) and insert variables with
-                                <code>${}</code>.</li>
-                            <li>Use <code>document.getElementById()</code> to select <code>#madlib-output</code> and set
-                                <code>.innerHTML</code> to your story.</li>
-                                <li> Customize the CSS and overall style of this site to make it your own // fit the story you wrote.</li>
-                            <li>Delete these instructions when you have finished and replace them with an explanation of what this project is. </li>
-                        </ol>
-
-                        <h3 class="h6">Bootstrap Note</h3>
-                        <p class="mb-0">
-                            This layout uses <code>.row</code> and <code>.col</code> so it’s responsive:
-                            it stacks on phones and shows two columns on larger screens.  <Strong>Dont ruin this when you eidt the site!</Strong>
-                        </p>
+                        <h2 class="h6">What this is.</h2>
+                        <p>
+                        For this project, we created a Mad Lib website that showcases our new JavaScript skills along with the HTML and CSS we learned previously.
+                        This Mad Lib site will prompt users to input different types of words, such as nouns, verbs, and adjectives, which will then be used to complete a fun story.
+                        </p>   
                     </div>
                 </div>
-                <div class="small text-muted mt-3">
-                    Tip: Commit early and often with clear messages. Publish on GitHub Pages and add your live link to
-                    your class gallery.
+                <div class="small mt-3">
+                    Tip: your answers are bold.
                 </div>
             </div>
         </div>
@@ -95,7 +62,7 @@
 
     <footer class="py-4 border-top bg-white">
         <div class="container small text-muted">
-            © 2025 Your Name • Web 2
+            © 2025 Kavya Shah • Web 2
         </div>
     </footer>
 </body>

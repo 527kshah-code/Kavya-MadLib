@@ -1,14 +1,28 @@
-/* Keep styles simple and readable for beginners */
 :root {
   --card-radius: 1rem;
 }
-
 .card {
   border-radius: var(--card-radius);
+  background-color:#96BFEE;
 }
-
 #madlib-output {
   min-height: 6rem; /* keeps the card from collapsing before story appears */
   line-height: 1.6;
   font-size: 1.05rem;
+}
+body {
+  background-color:#9DB5B2;
+}
+.card-body {
+  background-color:#96BFEE;
+}
+.card-body:hover {
+  background-color:#96BFEE;
+  filter: drop-shadow(8px 8px 10px #CE8DA0)
+}
+.border-bottom {
+  background-color:#A7B394;
+}
+.small {
+  background-color:#9DB5B2;
 }

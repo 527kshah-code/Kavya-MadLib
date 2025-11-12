@@ -29,26 +29,4 @@ let story = `<p>
  By the time the cops arrived at the scene, <b>${villain}</b> had fled to another <b>${setting}</b>.
  </p>`;
 
-/* 3) DISPLAY THE STORY ON THE PAGE
-   - Select the element with id "madlib-output" using document.getElementById(...)
-   - Set its .innerHTML to your story variable from Step 2.
-   - Optional: include simple <strong> or <em> tags inside your story string for emphasis.
-*/
-
-document.getElementById("madlib-output").innerHTML =  your story variable;
-
-/* 4) OPTIONAL POLISH
-   - Add a title or intro line at the top of your story (still using the same innerHTML).
-   - Use <br> tags inside your story string to control line breaks if you want multiple lines.
-   - Keep your variable names, prompts, and story grammar consistent.
-*/
-
-/* 5) RUBRIC REMINDER (quick checklist)
-   - Prompts: You ask for all required words with clear messages.
-   - Variables: You use let/const with meaningful names.
-   - Template Literals: You use backticks and ${} correctly.
-   - Display: The story shows up clearly in #madlib-output.
-   - Bootstrap: Don’t remove the .row/.col structure in index.html.
-   - Comments: Explain each step in your code.
-   - GitHub: Commit often with clear messages; publish on GitHub Pages.
-*/
+document.getElementById("madlib-output").innerHTML = story;
